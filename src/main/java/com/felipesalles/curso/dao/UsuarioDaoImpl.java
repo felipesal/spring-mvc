@@ -1,5 +1,6 @@
 package com.felipesalles.curso.dao;
 
+import java.time.LocalDate;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -20,12 +21,12 @@ public class UsuarioDaoImpl implements UsuarioDao {
 	private List<Usuario> createUserList(){
 		if(users == null) {
 			users = new LinkedList<>();
-			users.add(new Usuario(System.currentTimeMillis()+1L, "Ana", "da Silva"));
-			users.add(new Usuario(System.currentTimeMillis()+2L, "Luiz", "dos Santos"));
-			users.add(new Usuario(System.currentTimeMillis()+3L, "Mariana", "Mello"));
-			users.add(new Usuario(System.currentTimeMillis()+4L, "Karen", "Pereira"));
-			users.add(new Usuario(System.currentTimeMillis()+5L, "Sonia", "Fagundes"));
-			users.add(new Usuario(System.currentTimeMillis()+6L, "Norberto", "de Souza"));
+			users.add(new Usuario(System.currentTimeMillis()+1L, "Ana", "da Silva", LocalDate.of(1992, 5, 10)));
+			users.add(new Usuario(System.currentTimeMillis()+2L, "Luiz", "dos Santos", LocalDate.of(1990, 8, 11)));
+			users.add(new Usuario(System.currentTimeMillis()+3L, "Mariana", "Mello", LocalDate.of(1988, 9, 17)));
+			users.add(new Usuario(System.currentTimeMillis()+4L, "Karen", "Pereira", LocalDate.of(1988, 9, 17)));
+			users.add(new Usuario(System.currentTimeMillis()+5L, "Sonia", "Fagundes", LocalDate.of(1988, 9, 17)));
+			users.add(new Usuario(System.currentTimeMillis()+6L, "Norberto", "de Souza", LocalDate.of(1988, 9, 17)));
 		}
 		
 		return users;
@@ -44,6 +45,7 @@ public class UsuarioDaoImpl implements UsuarioDao {
 		.filter((u) -> u.getId().equals(usuario.getId()))
 		.forEach((u) -> {u.setNome(usuario.getNome());
 		 				u.setSobrenome(usuario.getSobrenome());
+		 				u.setDtNascimento(usuario.getDtNascimento());
 		 				});
 		
 	}

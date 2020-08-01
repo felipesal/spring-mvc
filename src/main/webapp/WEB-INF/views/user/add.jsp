@@ -34,6 +34,11 @@
                 <form:input path="sobrenome"  class="form-control"/>    
                 <form:errors path="sobrenome" cssClass="label label-danger"/>          
             </div>
+             <div class="form-group">
+                <label for="dtNascimento">Data de nascimento: </label>
+                <form:input path="dtNascimento"  class="form-control" type="date"/>    
+                <form:errors path="sobrenome" cssClass="label label-danger"/>          
+            </div>
             <div class="form-group">
                 <button type="submit" class="btn btn-primary">Confirmar</button>
             </div>
