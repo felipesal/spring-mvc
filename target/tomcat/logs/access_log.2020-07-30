@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [30/Jul/2020:13:47:42 -0300] "GET /intro-spring-mvc HTTP/1.1" 302 - http-bio-9090-exec-1 0
+0:0:0:0:0:0:0:1 - - [30/Jul/2020:13:47:42 -0300] "GET /intro-spring-mvc/ HTTP/1.1" 200 302 http-bio-9090-exec-3 625
+0:0:0:0:0:0:0:1 - - [30/Jul/2020:13:47:46 -0300] "GET /intro-spring-mvc/teste HTTP/1.1" 200 327 http-bio-9090-exec-4 3
+0:0:0:0:0:0:0:1 - - [30/Jul/2020:13:49:41 -0300] "GET /intro-spring-mvc HTTP/1.1" 302 - http-bio-9090-exec-1 0
+0:0:0:0:0:0:0:1 - - [30/Jul/2020:13:49:41 -0300] "GET /intro-spring-mvc/ HTTP/1.1" 200 302 http-bio-9090-exec-3 79
+0:0:0:0:0:0:0:1 - - [30/Jul/2020:13:49:46 -0300] "GET /intro-spring-mvc/teste HTTP/1.1" 200 327 http-bio-9090-exec-4 5
+0:0:0:0:0:0:0:1 - - [30/Jul/2020:13:51:30 -0300] "GET /intro-spring-mvc/teste HTTP/1.1" 200 327 http-bio-8080-exec-1 87
+0:0:0:0:0:0:0:1 - - [30/Jul/2020:13:51:31 -0300] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-3 0
+0:0:0:0:0:0:0:1 - - [30/Jul/2020:13:53:21 -0300] "GET /intro-spring-mvc/ HTTP/1.1" 200 302 http-bio-8080-exec-1 87
+0:0:0:0:0:0:0:1 - - [30/Jul/2020:13:53:26 -0300] "GET /intro-spring-mvc/teste HTTP/1.1" 200 327 http-bio-8080-exec-3 3
