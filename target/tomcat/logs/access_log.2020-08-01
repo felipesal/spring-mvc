@@ -48,3 +48,15 @@
 0:0:0:0:0:0:0:1 - - [01/Aug/2020:02:19:09 -0300] "GET /intro-spring-mvc/static/css/bootstrap.css HTTP/1.1" 404 949 http-bio-8080-exec-10 1
 0:0:0:0:0:0:0:1 - - [01/Aug/2020:02:19:10 -0300] "GET /intro-spring-mvc/usuario/todos HTTP/1.1" 200 2729 http-bio-8080-exec-10 3
 0:0:0:0:0:0:0:1 - - [01/Aug/2020:02:19:10 -0300] "GET /intro-spring-mvc/static/css/bootstrap.css HTTP/1.1" 404 949 http-bio-8080-exec-10 3
+0:0:0:0:0:0:0:1 - - [01/Aug/2020:02:26:03 -0300] "GET /intro-spring-mvc/usuario/todos HTTP/1.1" 200 2784 http-bio-8080-exec-1 770
+0:0:0:0:0:0:0:1 - - [01/Aug/2020:02:26:03 -0300] "GET /intro-spring-mvc/static/css/bootstrap.css HTTP/1.1" 404 949 http-bio-8080-exec-3 8
+0:0:0:0:0:0:0:1 - - [01/Aug/2020:02:26:06 -0300] "GET /intro-spring-mvc/usuario/cadastro HTTP/1.1" 200 1395 http-bio-8080-exec-4 47
+0:0:0:0:0:0:0:1 - - [01/Aug/2020:02:26:06 -0300] "GET /intro-spring-mvc/static/css/bootstrap.css HTTP/1.1" 404 949 http-bio-8080-exec-5 1
+0:0:0:0:0:0:0:1 - - [01/Aug/2020:02:26:10 -0300] "POST /intro-spring-mvc/usuario/save HTTP/1.1" 302 - http-bio-8080-exec-6 16
+0:0:0:0:0:0:0:1 - - [01/Aug/2020:02:26:10 -0300] "GET /intro-spring-mvc/usuario/todos HTTP/1.1" 200 3102 http-bio-8080-exec-7 5
+0:0:0:0:0:0:0:1 - - [01/Aug/2020:02:26:10 -0300] "GET /intro-spring-mvc/static/css/bootstrap.css HTTP/1.1" 404 949 http-bio-8080-exec-8 4
+0:0:0:0:0:0:0:1 - - [01/Aug/2020:02:26:14 -0300] "GET /intro-spring-mvc/usuario/update/1596259570742 HTTP/1.1" 200 1422 http-bio-8080-exec-9 13
+0:0:0:0:0:0:0:1 - - [01/Aug/2020:02:26:14 -0300] "GET /intro-spring-mvc/static/css/bootstrap.css HTTP/1.1" 404 949 http-bio-8080-exec-10 2
+0:0:0:0:0:0:0:1 - - [01/Aug/2020:02:26:19 -0300] "POST /intro-spring-mvc/usuario/update HTTP/1.1" 302 - http-bio-8080-exec-10 5
+0:0:0:0:0:0:0:1 - - [01/Aug/2020:02:26:19 -0300] "GET /intro-spring-mvc/usuario/todos HTTP/1.1" 200 3111 http-bio-8080-exec-3 3
+0:0:0:0:0:0:0:1 - - [01/Aug/2020:02:26:19 -0300] "GET /intro-spring-mvc/static/css/bootstrap.css HTTP/1.1" 404 949 http-bio-8080-exec-3 3
