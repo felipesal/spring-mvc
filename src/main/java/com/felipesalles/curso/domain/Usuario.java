@@ -15,6 +15,8 @@ public class Usuario {
 	
 	@DateTimeFormat(iso = ISO.DATE)
 	private LocalDate dtNascimento;
+	
+	private TipoSexo sexo;
 
 	public Usuario() {
 		super();
@@ -35,6 +37,17 @@ public class Usuario {
 		this.nome = nome;
 		this.sobrenome = sobrenome;
 		this.dtNascimento = dtNascimento;
+	}
+	
+	
+
+	public Usuario(Long id, String nome, String sobrenome, LocalDate dtNascimento, TipoSexo sexo) {
+		super();
+		this.id = id;
+		this.nome = nome;
+		this.sobrenome = sobrenome;
+		this.dtNascimento = dtNascimento;
+		this.sexo = sexo;
 	}
 
 	public Long getId() {
@@ -69,6 +82,14 @@ public class Usuario {
 
 	public void setDtNascimento(LocalDate dtNascimento) {
 		this.dtNascimento = dtNascimento;
+	}
+
+	public TipoSexo getSexo() {
+		return sexo;
+	}
+
+	public void setSexo(TipoSexo sexo) {
+		this.sexo = sexo;
 	}
 
 	@Override
